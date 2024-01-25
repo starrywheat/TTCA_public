@@ -5,9 +5,8 @@ from langchain.callbacks import get_openai_callback
 from Main import init_settings
 from Main import init_vectordb
 from Main import show_sidebar
-from vectordb import PineconeVDB
-
 from utils_llm import RAGpipeline_embfiter
+from vectordb import PineconeVDB
 
 
 show_sidebar()
@@ -19,9 +18,8 @@ with st.form("choose_cases"):
         "Choose existing case number :card_index_dividers:",
         tuple(st.session_state["existing_indices"]),
     )
-    
+
     reviewer = st.text_input("Reviewer", "Your Name")
-    
 
     # Load question
     query_template = """

@@ -5,7 +5,6 @@ from langchain.callbacks import get_openai_callback
 from langchain.callbacks import StreamlitCallbackHandler
 from Main import init_settings
 from Main import show_sidebar
-
 from utils_llm import agent_rag_pipeline
 
 
@@ -46,7 +45,7 @@ with st.form("choose_cases"):
         "Choose existing case number :card_index_dividers:",
         tuple(st.session_state["existing_indices"]),
     )
-    
+
     reviewer = st.text_input("Reviewer", "Your Name")
     submitted = st.form_submit_button("Submit")
 
