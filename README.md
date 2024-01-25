@@ -104,8 +104,9 @@ pip install -r requirements.txt
 
 5. (Optional) If you want to use langchain Azure Blob loader, sign up for a free Azure portal and create a blob storage account. Get the connection strings of the storage account.
 
-6. Save all the relevant credentials in .streamlit/secrets.toml (See an example in the directory)
+6. Save all the relevant credentials in .streamlit/secrets.toml
 
+   
 ### Run the streamlit app locally
 Run the streamlit app locally
 ```
