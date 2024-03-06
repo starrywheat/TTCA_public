@@ -56,11 +56,11 @@ This is a research project aim analyse roughly 7,500 Tax Tribunal decisions to a
 - Other insights and trends (e.g. HMRC win rate over the years).​
 
 
-This project showcases the use of ChatGPT to respond to the questions above with different approaches to extract relevant information from the case documents.
+This project showcases the use of GPT to respond to the questions above with different approaches to extract relevant information from the case documents.
 
 The output of this work consist of two products:
 - A Streamlit🎈[app](https://streamlit.io/) to query on the public Tax Tribunal documents, powered by ChatGPT.
-- An interactive [dashboard](https://app.hex.tech/a13d28df-9014-440d-ac6d-49fa575ec88b/app/408021b6-808b-47f0-8111-c14cf5cf3f48/latest) that summarises the findings of the data analysis
+- A Hex interactive [dashboard](https://app.hex.tech/a13d28df-9014-440d-ac6d-49fa575ec88b/app/408021b6-808b-47f0-8111-c14cf5cf3f48/latest) that summarises the findings of the data analysis
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
